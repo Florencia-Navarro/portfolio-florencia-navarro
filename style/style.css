@@ -161,6 +161,7 @@ footer{
     background-color: #b64115;
     padding: 50px;
     text-align: center;
+    margin: 0 auto;
 }
 .footer-nav{
     display: none;
@@ -189,7 +190,7 @@ footer ul li i{
 }
 
 
-/* versión mobile */
+/* /* versión mobile */
 @media (max-width: 767px){
     header{
         display: none;
@@ -278,10 +279,127 @@ footer ul li i{
 }
 
 }
+/* version desktop */
+@media (min-width: 1024px){
+    .nav-bar{
+        position: fixed;
+        width: 100vw;
+        z-index: 100;
+    }
+   .nav-bar ul{
+       display: flex;
+       justify-content: flex-end;
+       margin: 40px;
+    }
+    .nav-bar li{
+        list-style: none;
+    }
+    .nav-bar a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        font-size: 1.2rem;
+    }
+    .contact-button{
+        background-color: #b64115;
+        border-radius: 15px;
+    }
+    main{
+        position: relative;
+        top: 200px;
+    }
+    .about-cont{
+        display: flex;
+       justify-content: space-around;
+    }
+    .profile-photo{
+        width: 20vw;
+        border-radius: 20px;
+    }
+    
+    .profile-photo img{
+        width: 15vw;
+    }
+    .skills-cont{
+        background-color: #1e2022;
+    }
+    .skill-cards{
+        width: 85vw;
+        margin: 10px auto;
+        justify-content: center;
+    }
+    .skill-cards div{
+        width: 20vw;
+        padding: 50px;
+        background-color: #1b1c1e;
+    }
+    .projects-cards{
+        width: 90vw;
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .projects-cards article{
+        width: 22vw;
+        padding: 20px;
+       
+    }
+    .projects-cards img{
+        width: 10vw;
+    }
+    .portfolio-photo img{
+        width: 15vw ;
+    }
+    .contact-cont{
+        display: flex;
+        border: 1px solid black;
+        border-radius: 15px;
+        width: 80vw;
+        margin: 100px auto 300px;
+        padding: 30px;
+    }
+    .contact-links, .write-me-cont{
+        width: 40vw;
+    }
+    .contact-description{
+        text-align: left;
+        width: 30vw;
+    }
+    .contact-links li{
+        list-style: none;        
+    }
+    .write-me-cont h2{
+        text-align: left;
+    }
+    .write-me-cont article{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .name-surname-cont input{
+        width: 20vw;
+    }
+    .mail-cont, .message-cont{
+        width: 30vw;
+    }
+    .message-cont {
+       
+       height: 200px;
+    }
+    .footer-nav {
+        display: block;
+     }
+     .footer-nav a{
+         color: white;
+         text-decoration: none;
+         margin: 10px;
+     }
+    
+}
 
 
-
-
+ 
 
 
 
