@@ -137,6 +137,9 @@ body{
     padding: 30px;
     text-align: left;
 }
+fieldset article{
+    margin: 20px auto;
+}
 fieldset input, textarea{
     border-radius: 20px;
     border: 1px solid black;
@@ -192,19 +195,89 @@ footer ul li i{
         display: none;
     }
 }
+/* versión tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+    header{
+        display: none;
+    }
+.about-cont{
+    display: flex;
+}
+.profile-photo{
+    width: 20vw;
+    border-radius: 0%;
+}
 
+.profile-photo img{
+    width: 20vw;
+}
+.skill-cards{
+    width: 60vw;
+    margin: 10px auto;
+    justify-content: center;
+}
+.skill-cards div{
+    width: 20vw;
+    padding: 50px;
+}
+.quote-cont p{
+    width: 80vw;
+}
+.projects-cards article{
+    width: 35vw;
+    padding: 20px;
+}
+.projects-cards img{
+    width: 20vw;
+}
+.contact-cont{
+    width: 50vw;
+    margin: 30px;
+}
+.contact-description{
+    text-align: left;
+}
+.contact-links{
+    width: 90vw;
+}
+.contact-links ul{
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact-links ul li{
+    width: 45vw;
+    display: inline;
+}
+.write-me-cont h2{
+    text-align: left;
+}
+.write-me-cont article{
+    display: flex;
+    flex-direction: column;
+}
+.name-surname-cont{
+    width: 80vw;
+    display: flex;
+}
+.name-surname-cont input{
+    width: 39.5vw;
+}
+.mail-cont, .message-cont{
+    width: 80vw;
 
+}
+.footer-nav {
+   display: block;
+}
+.footer-nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
+}
 
 
 

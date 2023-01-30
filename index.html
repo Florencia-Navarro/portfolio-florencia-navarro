@@ -17,28 +17,28 @@
 <header>
     <nav class="navBar">
         <ul>
-            <li><a href="">HOLA</a></li>
-            <li><a href="">CONOCIMIENTOS</a></li>
-            <li><a href="">PROYECTOS</a></li>
-            <li><a href="">CONTACTO</a></li>
+            <li><a href="#about-cont">HOLA</a></li>
+            <li><a href="#skills-cont">CONOCIMIENTOS</a></li>
+            <li><a href="#projects-cont">PROYECTOS</a></li>
+            <li><a href="#contact-cont">CONTACTO</a></li>
         </ul>
     </nav>
 </header>
 <main>
-    <section class="about-cont">
+    <section id="about-cont" class="about-cont">
     <div class="description-about">
     <h2 >¡Hola! Soy</h2>
     <h1 >Florencia Navarro</h1>
     <p>Cocinera profesional, futura desarrolladora, tejedora artesana y mamá</p>
         <article class="about-button">
-        <a href="">LO QUE HAGO</a>
+        <a href="#projects-cont">LO QUE HAGO</a>
         </article>
     </div>
     <figure class="profile-photo">
    <img src="/img/foto-perfil.png" alt="Foto de perfil">
    </figure>
    </section>
-    <section class="skills-cont">
+    <section id="skills-cont" class="skills-cont">
         <h2 class="fz-40px">Mis conocimientos</h2>
         <p class="skill-description">Soy cocinera profesional hace muchos años, pero me encuentro iniciándome en el  mundo del desarrollo frontend, manejando buena parte de sus lenguajes.</p>
         <article class="skill-cards">
@@ -76,48 +76,48 @@
         </blockquote>
 
     </section>
-    <section class="projects-cont">
+    <section id="projects-cont" class="projects-cont">
         <h2 class="fz-40px">Mis Proyectos</h2>
         <p>Siempre intento que mis trabajos reflejen la dedicacón, esfuerzo y entusiasmo que pongo al realizarlos</p>
         <section class="projects-cards">
            <article>
-            <a href="">
+            <a href="/index.html" target="_blank">
                 <img src="" alt="">
                 <p>Portfolio</p>
                </a>
            </article>
            <article>
-            <a href="#" target="_blank">
+            <a href="/index.html" target="_blank">
                 <img src="/img/woman-pc.png" alt="mujer con pc">
                 <p>Generador de memes</p>
                </a>
            </article>
            <article>
-            <a href="#" target="_blank">
+            <a href="/index.html" target="_blank">
                 <img src="/img/arcade.png" alt="Arcade">
                 <p>Match 3</p>
                </a>
            </article>
            <article>
-            <a href="#" target="_blank">
+            <a href="/index.html" target="_blank">
                 <img src="/img/control-gastos.png" alt="mujer controlando gastos">
                 <p>Controlador de gastos</p>
                </a>
            </article>
           <article>
-            <a href="#" target="_blank">
+            <a href="/index.html" target="_blank">
                 <img src="/img/calendario.png" alt="calendario">
                 <p>Administrador de reuniones</p>
                </a>
           </article>
            <article>
-            <a href="#" target="_blank">
+            <a href="/index.html" target="_blank">
                 <img src="/img/todo-app.png" alt="check list">
                 <p>Todo app</p>
                </a>
            </article>
           <article>
-            <a href="#" target="_blank">
+            <a href="/index.html" target="_blank">
                 <img src="/img/cine.png" alt="lentes 3d y pochoclos">
                 <p>Buscador de películas</p>
                </a>
@@ -126,10 +126,10 @@
        
 
     </section>
-    <section class="contact-cont">
+    <section id="contact-cont" class="contact-cont">
         <article class="contact-description">
             <h2 class="fz-40px">Contactame</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, voluptatum. Ducimus distinctio tenetur molestias est!</p>
+            <p>Puedo ayudarte a crear tu propia página web que represente a la perfección tu propio estilo</p>
             </article>
         <article class="contact-links">
             <ul>
@@ -163,25 +163,24 @@
             <h2 class="fz-40px">Escribime</h2>
             <form target="_blank" action="https://formsubmit.co/cecine.flor@gmail.com" method="POST">
             <fieldset>
-              <div class="name-cont">
+             <div class="name-surname-cont">
+              <article class="name-cont">
                 <label for="nombre">Nombre *</label>
                 <input type="text" name="nombre" placeholder="p. ej.: Ada" required>
-                </div>
-                <div class="surname-cont">
-                
+              </article>
+               <article class="surname-cont">
                 <label for="apellido">Apellido *</label>
                 <input type="text" name="apellido" placeholder="p. ej.: Lovelace" required>
-                
-               
-                 </div>
-                <div class="mail-cont">
+              </article>
+             </div>
+               <article class="mail-cont">
                 <label for="email">Email *</label>
                 <input type="email" name="email" placeholder="p. ej.: ada.lovelace@gmail.com" required>
-                </div>
-                 <div class="message-cont">
+              </article>
+                 <article class="message-cont">
                 <label for="mensaje">Mensaje *</label>
                 <textarea name="mensaje" id="" cols="22" rows="10" placeholder="Escriba un mensaje aquí" required></textarea>
-                </div>
+              </article> 
                 <input class="submit-button" type="submit" >
             </fieldset>
         </article>
@@ -189,10 +188,10 @@
 </main>
 <footer>
     <section class="footer-nav">
-        <a href="">HOLA</a>
-        <a href="">CONOCIMIENTOS</a>
-        <a href="">PROYECTOS</a>
-        <a href="">CONTACTO</a>
+        <a href="#about-cont">HOLA</a>
+        <a href="#skills-cont">CONOCIMIENTOS</a>
+        <a href="#projects-cont">PROYECTOS</a>
+        <a href="#contact-cont">CONTACTO</a>
     </section>
     <ul>
         <li>
