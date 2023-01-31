@@ -190,7 +190,7 @@ footer ul li i{
 }
 
 
-/* /* versión mobile */
+ /* versión mobile */
 @media (max-width: 767px){
     header{
         display: none;
@@ -285,20 +285,37 @@ footer ul li i{
         position: fixed;
         width: 100vw;
         z-index: 100;
+       
     }
    .nav-bar ul{
        display: flex;
        justify-content: flex-end;
-       margin: 40px;
+      
+       margin: 10px;
     }
     .nav-bar li{
         list-style: none;
+    }
+    .nav-bar li{
+        transition: all;
+        transition: 500ms ease-out;
+    }
+    .nav-bar li:hover{
+        background-color: #b64115;
+        border-radius: 15px;
+        
     }
     .nav-bar a{
         text-decoration: none;
         color: white;
         padding: 20px;
         font-size: 1.2rem;
+    }
+    .nav-bar li:hover a{
+        padding: 30px;
+        color: #1b1c1e;
+        font-size: 1.5rem;
+        
     }
     .contact-button{
         background-color: #b64115;
@@ -311,6 +328,7 @@ footer ul li i{
     .about-cont{
         display: flex;
        justify-content: space-around;
+       padding-top: 100px;
     }
     .profile-photo{
         width: 20vw;
@@ -320,8 +338,26 @@ footer ul li i{
     .profile-photo img{
         width: 15vw;
     }
+    .about-button{
+        
+        transition-property: all ;
+        transition: 1s ease-out;
+        
+    }
+    .about-button:hover{
+        background-color: #1e2022;
+        border: 1px solid #b64115;
+    }
+    .about-button a{
+        transition-property: all ;
+        transition: 1s ease-out;
+    }
+    .about-button:hover a{
+        color: #b64115;
+    }
     .skills-cont{
         background-color: #1e2022;
+        padding-top: 100px;
     }
     .skill-cards{
         width: 85vw;
@@ -333,6 +369,9 @@ footer ul li i{
         padding: 50px;
         background-color: #1b1c1e;
     }
+    .skill-cards div:hover{
+        box-shadow: 0px 0px 6px 2px rgba(182,65,21,1);
+    }
     .projects-cards{
         width: 90vw;
         margin: 20px auto;
@@ -340,10 +379,20 @@ footer ul li i{
         flex-wrap: wrap;
        
     }
+    .projects-cont{
+        padding-top: 100px;
+    }
     .projects-cards article{
         width: 22vw;
         padding: 20px;
+        transition: all;
+        transition: 500ms ease-out;
        
+    }
+    .projects-cards article:hover{
+        box-shadow: 0px 0px 6px 2px rgba(182,65,21,1);
+        width: 22.5vw;
+    
     }
     .projects-cards img{
         width: 10vw;
@@ -356,8 +405,8 @@ footer ul li i{
         border: 1px solid black;
         border-radius: 15px;
         width: 80vw;
-        margin: 100px auto 300px;
-        padding: 30px;
+        margin: 100px auto  300px;
+        padding: 100px 30px 30px 30px;
     }
     .contact-links, .write-me-cont{
         width: 40vw;
@@ -368,6 +417,18 @@ footer ul li i{
     }
     .contact-links li{
         list-style: none;        
+    }
+    .contact-cont i{
+        transition: all;
+        transition: 500ms ease-out;
+    }
+    .contact-cont li:hover i{
+        color: #1e2022;
+        border-radius: 50%;
+        background-color: #b64115;
+        padding: 10px;
+
+       
     }
     .write-me-cont h2{
         text-align: left;
@@ -387,8 +448,27 @@ footer ul li i{
        
        height: 200px;
     }
+    .submit-button{
+        transition-property: all ;
+        transition: 1s ease-out;
+    }
+    .submit-button:hover{
+        background-color: #1e2022;
+        border: 1px solid #b64115;
+        color: #b64115;
+    }
     .footer-nav {
         display: block;
+     }
+     .footer  i{
+        transition: all;
+        transition: 500ms ease-out;
+     }
+     .footer i:hover {
+        color: #1e2022;
+        border-radius: 50%;
+        background-color: #b64115;
+        
      }
      .footer-nav a{
          color: white;
