@@ -43,6 +43,7 @@ body{
 }
 .profile-photo img{
     width: 40vw;
+    margin-top: 30px;
 }
 .skills-cont{
     text-align: center;
@@ -52,9 +53,9 @@ body{
     margin: 30px;
 }
 .skill-cards{
-    width: 100vw;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .skill-cards div{
     width: 35vw;
@@ -195,6 +196,7 @@ footer ul li i{
     header{
         display: none;
     }
+   
 }
 /* versión tablet */
 @media (min-width: 768px) and (max-width: 1023px){
@@ -281,17 +283,22 @@ footer ul li i{
 }
 /* version desktop */
 @media (min-width: 1024px){
+   
     .nav-bar{
         position: fixed;
-        width: 100vw;
+        width: 80vw;
         z-index: 100;
+        top: 0;
+       
        
     }
    .nav-bar ul{
        display: flex;
        justify-content: flex-end;
-      
+       width: 100vw;
        margin: 10px;
+       background-color: #1e2022;
+       padding: 50px;
     }
     .nav-bar li{
         list-style: none;
@@ -323,12 +330,12 @@ footer ul li i{
     }
     main{
         position: relative;
-        top: 200px;
+        top: 300px;
     }
     .about-cont{
         display: flex;
        justify-content: space-around;
-       padding-top: 100px;
+       padding-top: 200px;
     }
     .profile-photo{
         width: 20vw;
@@ -339,9 +346,8 @@ footer ul li i{
         width: 15vw;
     }
     .about-button{
-        
         transition-property: all ;
-        transition: 1s ease-out;
+        transition: 500ms ease-out;
         
     }
     .about-button:hover{
@@ -350,14 +356,14 @@ footer ul li i{
     }
     .about-button a{
         transition-property: all ;
-        transition: 1s ease-out;
+        transition: 500ms ease-out;
     }
     .about-button:hover a{
         color: #b64115;
     }
     .skills-cont{
         background-color: #1e2022;
-        padding-top: 100px;
+        padding-top: 200px;
     }
     .skill-cards{
         width: 85vw;
@@ -372,15 +378,15 @@ footer ul li i{
     .skill-cards div:hover{
         box-shadow: 0px 0px 6px 2px rgba(182,65,21,1);
     }
+    .projects-cont{
+        padding-top: 200px;
+    }
     .projects-cards{
         width: 90vw;
         margin: 20px auto;
         display: flex;
         flex-wrap: wrap;
        
-    }
-    .projects-cont{
-        padding-top: 100px;
     }
     .projects-cards article{
         width: 22vw;
@@ -405,8 +411,8 @@ footer ul li i{
         border: 1px solid black;
         border-radius: 15px;
         width: 80vw;
-        margin: 100px auto  300px;
-        padding: 100px 30px 30px 30px;
+        margin: 100px auto  350px;
+        padding: 200px 30px 50px 30px;
     }
     .contact-links, .write-me-cont{
         width: 40vw;
@@ -450,7 +456,7 @@ footer ul li i{
     }
     .submit-button{
         transition-property: all ;
-        transition: 1s ease-out;
+        transition: 500ms ease-out;
     }
     .submit-button:hover{
         background-color: #1e2022;
@@ -460,21 +466,64 @@ footer ul li i{
     .footer-nav {
         display: block;
      }
-     .footer  i{
-        transition: all;
-        transition: 500ms ease-out;
-     }
-     .footer i:hover {
-        color: #1e2022;
-        border-radius: 50%;
-        background-color: #b64115;
-        
-     }
      .footer-nav a{
          color: white;
          text-decoration: none;
          margin: 10px;
+         transition: all;
+         transition: 500ms ease-out;
      }
+     .footer-nav a:hover{
+        font-size: 20px;
+     }
+     .footer-links i{
+        transition: all;
+        transition: 500ms ease-out;
+     }
+     .footer-links li a:hover i{
+        color: #1e2022;
+        border-radius: 50%;
+        background-color: #b64115;
+        border: 1px solid #1e2022;
+     }
+    
+}
+
+/* coming-soon.html */
+.coming-soon-cont{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.coming-soon-cont img{
+    width: 20vw;
+}
+.coming-soon-cont figcaption{
+    margin: 35px;
+}
+.coming-soon-cont a{
+    color: white;
+    text-decoration: none;
+    background-color: #b64115;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* version desktop */
+@media (min-width: 1024px){
+    .coming-soon-cont a{
+        transition-property: all ;
+        transition: 500ms ease-out;
+    }
+    .coming-soon-cont a:hover{
+        background-color: #1e2022;
+        border: 1px solid #b64115;
+        color: #b64115;
+    }
+   
     
 }
 
