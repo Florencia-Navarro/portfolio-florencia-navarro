@@ -8,7 +8,7 @@ Este proyecto esta realizado para ser evaluado en la instancia final del módulo
 - **PROYECTOS:** en esta sección los proyectos todavia se encuntran en construcción🔨
 - **CONTACTO:** links y formulario de contacto ante cualquier duda o contratación😊
 ***
-**¡Acá puedes ver el portafolio!** Haz click <a href="(https://portfolio-florencia-navarro.vercel.app/)">aquí 📱</a>
+**¡Acá puedes ver el portafolio!** Haz click [aquí 📱](https://portfolio-florencia-navarro.vercel.app/)
 ***
 Asi deberias verlo al entrar
 ![Inicio del portafolio](/img/porfolio-inicio.jpg)
