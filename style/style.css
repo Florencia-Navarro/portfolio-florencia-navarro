@@ -269,7 +269,6 @@ footer ul li i{
 }
 .mail-cont, .message-cont{
     width: 80vw;
-
 }
 .footer-nav {
    display: block;
@@ -289,8 +288,6 @@ footer ul li i{
         width: 80vw;
         z-index: 100;
         top: 0;
-       
-       
     }
    .nav-bar ul{
        display: flex;
@@ -298,7 +295,7 @@ footer ul li i{
        width: 100vw;
        margin: 10px;
        background-color: #1e2022;
-       padding: 50px;
+       padding: 20px;
     }
     .nav-bar li{
         list-style: none;
@@ -310,7 +307,6 @@ footer ul li i{
     .nav-bar li:hover{
         background-color: #b64115;
         border-radius: 15px;
-        
     }
     .nav-bar a{
         text-decoration: none;
@@ -322,7 +318,6 @@ footer ul li i{
         padding: 30px;
         color: #1b1c1e;
         font-size: 1.5rem;
-        
     }
     .contact-button{
         background-color: #b64115;
@@ -330,7 +325,7 @@ footer ul li i{
     }
     main{
         position: relative;
-        top: 300px;
+        top: 50px;
     }
     .about-cont{
         display: flex;
@@ -348,7 +343,6 @@ footer ul li i{
     .about-button{
         transition-property: all ;
         transition: 500ms ease-out;
-        
     }
     .about-button:hover{
         background-color: #1e2022;
@@ -363,7 +357,7 @@ footer ul li i{
     }
     .skills-cont{
         background-color: #1e2022;
-        padding-top: 200px;
+        padding-top: 100px;
     }
     .skill-cards{
         width: 85vw;
@@ -379,26 +373,23 @@ footer ul li i{
         box-shadow: 0px 0px 6px 2px rgba(182,65,21,1);
     }
     .projects-cont{
-        padding-top: 200px;
+        padding-top: 100px;
     }
     .projects-cards{
         width: 90vw;
         margin: 20px auto;
         display: flex;
         flex-wrap: wrap;
-       
     }
     .projects-cards article{
         width: 22vw;
         padding: 20px;
         transition: all;
         transition: 500ms ease-out;
-       
     }
     .projects-cards article:hover{
         box-shadow: 0px 0px 6px 2px rgba(182,65,21,1);
         width: 22.5vw;
-    
     }
     .projects-cards img{
         width: 10vw;
@@ -412,7 +403,7 @@ footer ul li i{
         border-radius: 15px;
         width: 80vw;
         margin: 100px auto  350px;
-        padding: 200px 30px 50px 30px;
+        padding: 100px 30px 50px 30px;
     }
     .contact-links, .write-me-cont{
         width: 40vw;
@@ -433,8 +424,6 @@ footer ul li i{
         border-radius: 50%;
         background-color: #b64115;
         padding: 10px;
-
-       
     }
     .write-me-cont h2{
         text-align: left;
@@ -448,10 +437,9 @@ footer ul li i{
         width: 20vw;
     }
     .mail-cont, .message-cont{
-        width: 30vw;
+        width: 35vw;
     }
     .message-cont {
-       
        height: 200px;
     }
     .submit-button{
@@ -497,6 +485,9 @@ footer ul li i{
     align-items: center;
     flex-direction: column;
 }
+.coming-soon-cont figure{
+    text-align: center;
+}
 .coming-soon-cont img{
     width: 20vw;
 }
@@ -514,6 +505,7 @@ footer ul li i{
 
 /* version desktop */
 @media (min-width: 1024px){
+   
     .coming-soon-cont a{
         transition-property: all ;
         transition: 500ms ease-out;
